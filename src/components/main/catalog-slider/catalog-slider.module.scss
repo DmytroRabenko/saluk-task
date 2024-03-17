@@ -23,12 +23,12 @@
     .slide {
       position: relative;
       .slidePhoto {
-        height: 370px;
+        height: 433px;
         border-radius: 3px;
         overflow: hidden;
         img {
           width: 100%;
-          // height: 100%;
+          height: 100%;
           object-fit: cover;
           object-position: center;
         }

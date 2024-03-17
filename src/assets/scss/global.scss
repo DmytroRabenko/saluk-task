@@ -63,10 +63,6 @@ h4 {
   line-height: 26px;
 }
 
-
-//swiper hero
-
-.swiper-pagination-bullet{
-  color: white;
-  background-color: white;
+.swiper-pagination-bullet-active {
+  background-color:$white !important;
 }

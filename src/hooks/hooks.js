@@ -23,5 +23,6 @@ export const useClickOutside = (isActive, refs, callback) => {
     return () => {
       document.removeEventListener('mousedown', handleClickOutside, options);
     };
+   //eslint-disable-next-line
   }, [isActive, refs, callback]);
 };
