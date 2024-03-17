@@ -1,0 +1,43 @@
+@import '../../../assets/scss/variables';
+.searchBlock {
+  width: 282px;
+  height: 40px;
+  position: relative;
+  z-index: 20;
+  .input {
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px 10px 40px;
+    background-color: $black10;
+    border-radius: 15px;
+    border-color: transparent;
+    outline: none;
+  }
+  button {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../../../public/images/icons/search.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 7.5px;
+    left: 10px;
+    cursor: default;
+  }
+  .searchButton {
+    background-image: url('../../../../public/images/icons/search.svg');
+  }
+  .closeButton {
+    background-image: url('../../../../public/images/icons/close.svg');
+    cursor: pointer;
+  }
+  .searchList {
+    background-color: $black10;
+    padding: 10px;
+    border-radius: 15px;
+    position: absolute;
+    top: 45px;
+    max-height: 200px;
+  }
+}

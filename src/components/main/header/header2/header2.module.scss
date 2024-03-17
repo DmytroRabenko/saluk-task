@@ -1,0 +1,46 @@
+.header2 {
+  .content {
+    min-height: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    @media (min-width: 1024px) {
+      flex-direction: row;
+      padding-bottom: 0;
+    }
+    .logo {
+      display: block;
+      width: 70px;
+      height: 17px;
+      overflow: hidden;
+    }
+    .navList {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      column-gap: 30px;
+      margin-bottom: 10px;
+      @media (min-width: 1024px) {
+        margin-bottom: 0;
+      }
+    }
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      button {
+        width: 24px;
+        height: 24px;
+        &.favorite {
+          background-image: url('../../../../../public/images/icons/heart.svg');
+        }
+        &.basket {
+          background-image: url('../../../../../public/images/icons/bag.svg');
+        }
+      }
+    }
+  }
+}

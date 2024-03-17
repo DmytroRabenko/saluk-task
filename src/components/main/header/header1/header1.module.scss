@@ -1,0 +1,15 @@
+@import '../../../../assets/scss/variables';
+.header1 {
+  background-color: $black80;
+  .content {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $white;
+    font-size: 12px;
+    .phone {
+      margin-right: 23px;
+    }
+  }
+}

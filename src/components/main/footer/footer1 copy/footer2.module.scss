@@ -1,0 +1,29 @@
+@import '../../../../assets/scss/variables';
+.footer2 {
+  background-color: $black80;
+  .content {
+    min-height: 93px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: $white;
+    padding: 20px;
+    @media (min-width: 1024px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .navList {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      text-transform: uppercase;
+    }
+    .information {
+      font-size: 12px;
+    }
+  }
+}
