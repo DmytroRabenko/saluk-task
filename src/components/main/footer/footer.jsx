@@ -1,6 +1,6 @@
 import s from './footer.module.scss';
 import Footer1 from './footer1/footer1';
-import Footer2 from './footer1 copy/footer2';
+import Footer2 from './footer2/footer2';
 
 const Footer = () => {
   return (
